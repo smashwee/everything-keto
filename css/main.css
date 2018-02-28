@@ -1,0 +1,35 @@
+body {
+  font: normal 16px Avenir, Georgia, Helvetica;
+}
+
+h1 {
+  font-size: 30px;
+  padding: 10px;
+}
+
+ul.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.nav-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.nav-bar li a:hover {
+    background-color: #111;
+    transition: all .5s;
+}
+
+@media all and (min-width: 480px){
+  ul.nav-bar li {
+    float: left;
+  }
+}
