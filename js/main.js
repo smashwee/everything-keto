@@ -1,7 +1,7 @@
 console.log('JS is working')
 
 $(document).ready(function(){
-  
+
   function scroll(top){
     $('element').animate({
       scrollTop: top
@@ -11,7 +11,7 @@ $(document).ready(function(){
   //get the top position of the element
   var linkPos = $('#element-id').position().top;
   $('element-id').on('click', function(){
-    scroll(linkPos)
+    scroll(linkPos) //invoke scroll function
   })
   //scroll to it
 
