@@ -7,12 +7,32 @@ h1 {
   padding: 10px;
 }
 
+ol, ul {
+  margin-left: 25px;
+}
+
+ol li {
+  list-style-type: decimal;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+strong {
+  font-weight: bold;
+}
+
 ul.nav-bar{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+}
+
+ul.nav-bar li {
+  list-style-type: none;
 }
 
 ul.nav-bar li a {
@@ -32,4 +52,5 @@ ul.nav-bar li a:hover {
   ul.nav-bar li {
     float: left;
   }
+
 }
