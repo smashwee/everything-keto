@@ -40,7 +40,10 @@ ul li {
 
 strong {
   font-weight: bold;
-  padding-bottom: 10px;
+}
+
+label {
+  font-size: 30px;
 }
 
 .container {

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us!</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  </head>
+  <body class="page-contact">
+    <nav>
+      <ul class="nav-bar">
+      <li><a href="index.html" class="page-home"><span class="icon-home3"></span></a></li>
+      <li><a href="recipes.html" class="page-recipes">Recipes</a></li>
+      <li><a href="#">Food</a></li>
+      <li><a href="contact.html" class="page-contact">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>Have a question?</h1>
+      <p>Feel free to reach out to me for some simple questions you may have.
+        I am no expert but I would love to try and help!</p>
+      <br>
+      <script type="text/javascript">
+      var submitted=false;
+
+      </script>
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {submit()}"></iframe>
+
+
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSfzuDRTLwsMXpiiOlizvFkOPzog3wNTehkvi-94BFUQsBO0hQ/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
+        <label for="name">Name:</label>
+        <p></p>
+        <input name="entry.2005620554" type="text" id="name"></input>
+        <p></p>
+        <label for="email">Email:</label>
+        <p></p>
+        <input name="entry.1045781291" type="text" id="email"></input>
+        <p></p>
+        <label for="question">Question:</label>
+        <p></p>
+        <input name="entry.839337160" type="text" id="question"></input>
+        <p></p>
+        <input class="button" type="submit" value="Submit"></input>
+      </form>
+
+    </div>
+  <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
