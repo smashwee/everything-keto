@@ -1,5 +1,5 @@
 body {
-  font: normal 16px Avenir, Georgia, Helvetica;
+  font: normal 20px Avenir, Georgia, Helvetica;
 }
 
 h1 {
@@ -9,13 +9,19 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 h3 {
+  font-size: 20px;
   padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h5 {
+  font-size: 15px;
   padding-bottom: 10px;
 }
 
