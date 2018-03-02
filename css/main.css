@@ -3,24 +3,48 @@ body {
 }
 
 h1 {
-  font-size: 30px;
-  padding: 10px;
+  font-size: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  padding-bottom: 10px;
 }
 
 ol, ul {
   margin-left: 25px;
+  padding-bottom: 10px;
 }
 
 ol li {
   list-style-type: decimal;
+  padding-bottom: 10px;
 }
 
 ul li {
   list-style-type: disc;
+  padding-bottom: 10px;
 }
 
 strong {
   font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.container {
+  padding: 15px;
 }
 
 ul.nav-bar{
@@ -33,6 +57,7 @@ ul.nav-bar{
 
 ul.nav-bar li {
   list-style-type: none;
+  padding: 0;
 }
 
 ul.nav-bar li a {
@@ -43,6 +68,9 @@ ul.nav-bar li a {
     text-decoration: none;
 }
 
+body.page-home ul.nav-bar li a.page-home,
+body.page-recipes ul.nav-bar li a.page-recipes,
+body.page-contact ul.nav-bar li a.page-contact,
 ul.nav-bar li a:hover {
     background-color: #111;
     transition: all .5s;
