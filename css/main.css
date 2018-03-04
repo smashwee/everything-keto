@@ -85,6 +85,10 @@ ul.nav-bar li a:hover {
     transition: all .5s;
 }
 
+.whats-this {
+  list-style-type: circle;
+}
+
 @media all and (min-width: 480px){
   ul.nav-bar li {
     float: left;
