@@ -3,30 +3,40 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 75px;
   padding-bottom: 10px;
   text-align: center;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 45px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h4 {
+  font-size: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 h5 {
-  font-size: 15px;
+  font-size: 20px;
   padding-bottom: 10px;
 }
 
 p {
   padding-bottom: 10px;
+}
+
+em {
+  font-style: italic;
 }
 
 ol, ul {
@@ -87,6 +97,12 @@ ul.nav-bar li a:hover {
 
 .whats-this {
   list-style-type: circle;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media all and (min-width: 480px){
