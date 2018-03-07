@@ -13,19 +13,10 @@ $(document).ready(function(){
     }, 500)
   }
 
-  //get the top position of the element
-  // var linkPos = $('element-id').position().top;
-
 
   $('#bottom').on('click', function(){
     scroll(0) //invoke scroll function
   })
-
-  //scroll to it
-
-  // $('element-id').on('click,' function(){
-  //  scoll(0);
-//  })
 
 
 })
